@@ -1,3 +1,3 @@
 def call () {
-  sh 'docker build -t $appRegistry:$tagname .
+  sh 'docker build -t $appRegistry:$tagname .'
 }
