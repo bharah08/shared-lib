@@ -1,3 +1,3 @@
 def call () {
-  sh 'docker push $appRegistry:$tagname
+  sh 'docker push $appRegistry:$tagname'
 }
